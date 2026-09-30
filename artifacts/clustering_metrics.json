@@ -1,0 +1,38 @@
+{
+  "group_code": "AI-G14",
+  "random_seed": 42,
+  "k_range": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "silhouette_scores": {
+    "2": 0.34002706668064614,
+    "3": 0.31010959552045003,
+    "4": 0.19904534900627807,
+    "5": null
+  },
+  "selected_k": 2,
+  "selected_silhouette": 0.34002706668064614,
+  "n_records_labeled": 5,
+  "cluster_sizes": {
+    "0": 4,
+    "1": 1
+  },
+  "justification": "k=2 was selected because it has the highest silhouette score (0.3400) among valid k values from 2 to 5. Silhouette close to 1 means tighter, better-separated groups; values near 0 mean overlapping groups. This is a compactness score, not proof that the groups exist in the field.",
+  "interpretation_note": "Cluster labels describe similar input-feature profiles in this file. They are not verified real-world farm categories, risk grades, or operational types. Staff should treat them as a starting grouping, not as a confirmed identity for any collection point.",
+  "features_used": [
+    "plot_area_ha",
+    "rainfall_mm",
+    "soil_ph",
+    "seed_kg",
+    "distance_km",
+    "arrival_hour"
+  ],
+  "targets_excluded": [
+    "actual_yield_kg",
+    "dispatch_attention",
+    "record_id"
+  ]
+}

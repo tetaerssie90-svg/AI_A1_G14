@@ -1,0 +1,7 @@
+{
+  "group_code": "AI-G14",
+  "model_version": "1.0.0",
+  "random_seed": 42,
+  "dataset_path": "data/AI_A1_G14.csv",
+  "sha256_fingerprint": "d2a9e298801bc018ad7a79349c0f2d23ebc3f057fb1cd06474be43d520ba7973"
+}

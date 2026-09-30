@@ -1,0 +1,44 @@
+{
+  "group_code": "AI-G14",
+  "random_seed": 42,
+  "model": "LogisticRegression",
+  "test_size": 0.2,
+  "stratified_split": false,
+  "n_train": 4,
+  "n_test": 1,
+  "accuracy": 0.0,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "confusion_matrix": {
+    "labels": [
+      0,
+      1
+    ],
+    "matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "true_negatives": 0,
+    "false_positives": 1,
+    "false_negatives": 0,
+    "true_positives": 0
+  },
+  "intercept": 1.7098917320037885,
+  "coefficients": {
+    "plot_area_ha": -0.36858193590182764,
+    "rainfall_mm": 0.35149083597932734,
+    "soil_ph": -0.3197147464437768,
+    "seed_kg": -0.3959725638677966,
+    "distance_km": -0.3730555288832767,
+    "arrival_hour": 0.31087365017797985
+  },
+  "cost_interpretation": "A false negative is more costly than a false positive in this scenario. dispatch_attention = 1 means a consignment needs extra checks before trucks leave Musanze. Missing that flag (false negative) can send an at-risk load without review. A false positive only adds a staff check, which is cheaper than a failed dispatch.",
+  "note": "The StandardScaler was fitted on the training split only."
+}

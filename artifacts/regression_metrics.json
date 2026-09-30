@@ -1,0 +1,31 @@
+{
+  "group_code": "AI-G14",
+  "random_seed": 42,
+  "learning_rate": 0.05,
+  "n_iterations": 3000,
+  "test_size": 0.2,
+  "n_train": 4,
+  "n_test": 1,
+  "mae": 7.35604399386466,
+  "rmse": 7.35604399386466,
+  "r_squared": 0.0,
+  "final_train_loss": 2.8130956879578492e-08,
+  "initial_train_loss": 3345000.0,
+  "loss_decreased": true,
+  "coefficients": {
+    "intercept": 2549.999999999996,
+    "plot_area_ha": 103.85798112206167,
+    "rainfall_mm": 51.30176591298882,
+    "soil_ph": -49.36859843750308,
+    "seed_kg": 98.96454870140822,
+    "distance_km": 110.23051788410409,
+    "arrival_hour": -113.18397974689825
+  },
+  "test_predictions": [
+    2407.3560439938647
+  ],
+  "test_actual": [
+    2400.0
+  ],
+  "note": "Weights come from NumPy batch gradient descent. The scaler was fitted on training features only."
+}
