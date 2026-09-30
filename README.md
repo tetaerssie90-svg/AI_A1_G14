@@ -13,8 +13,8 @@ Reproducible command-line pipeline for the **Musanze HarvestLink Cooperative** (
   - Member 3, Classification engineer: Uwiringiyimana Marie Claire
   - Member 4, Clustering and QA engineer: Mbabazi Sandrine
   - Member 5, Reproducibility and release lead: Teta Erssie
-- GitHub repository URL: *add the public clone URL after pushing*
-- Final commit hash: *filled after the last commit*
+- GitHub repository URL: https://github.com/tetaerssie90-svg/AI_A1_G14.git
+- Final commit hash: 5cfaa1d71ca225c7636fb74ce94cc44db5c8acc8
 - Dataset SHA-256 fingerprint: *printed by `run_all.py` and saved in `artifacts/data_report.json`*
 
 ## Tested environment
