@@ -1,0 +1,7 @@
+
+record_id,plot_area_ha,rainfall_mm,soil_ph,seed_kg,distance_km,arrival_hour,actual_yield_kg,dispatch_attention
+R001,1.2,81,5.7,210,14,9,2500,1
+R002,0.8,65,6.1,180,10,11,1900,0
+R003,1.5,90,5.5,220,12,8,2700,1
+R004,2.0,70,6.0,300,20,7,3100,0
+R005,1.1,85,5.8,200,15,10,2400,1
